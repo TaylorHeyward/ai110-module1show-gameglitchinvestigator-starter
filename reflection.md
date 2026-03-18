@@ -14,8 +14,11 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
---- It will tell you to keep guessing lower even thought I typed in 1 and the secret number was 55. It also told me I had more attempts than I did and gave me the answer before i ran out of attempts. Lastly, it just took really long to load and was hard to start over and try to play again. 
-
+When I first ran the game, it technically worked, but the behavior was inconsistent and confusing. The feedback and game flow did not match what the player would expect from a guessing game.
+Some of the main bugs I noticed were:
+The hint logic was incorrect. For example, when I guessed 1 and the secret number was 55, the game told me to guess lower instead of higher.
+The attempts system was inaccurate. The game showed that I had more attempts remaining than I actually did and sometimes revealed the answer before I had used all of my attempts.
+The game reset and overall user experience were poor. It was slow to restart, and starting a new game did not feel clean or immediate.
 
 ## 2. How did you use AI as a teammate?
 
