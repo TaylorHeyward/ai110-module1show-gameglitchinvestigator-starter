@@ -8,7 +8,14 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
+## 1. What was broken when you started?
+
+- What did the game look like the first time you ran it?
+- List at least two concrete bugs you noticed at the start  
+  (for example: "the hints were backwards").
+
 --- It will tell you to keep guessing lower even thought I typed in 1 and the secret number was 55. It also told me I had more attempts than I did and gave me the answer before i ran out of attempts. Lastly, it just took really long to load and was hard to start over and try to play again. 
+
 
 ## 2. How did you use AI as a teammate?
 
@@ -19,6 +26,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 I used AI as a teammate in two main ways: to help refactor game logic into a helper file and to help identify where the bugs were actually coming from.
 One correct suggestion the AI gave me was to move the check_guess() function out of app.py and into logic_utils.py using Copilot Agent Mode. It also correctly identified that the high/low feedback logic was reversed. For example, if a guess was higher than the secret, the original code told the player to go higher instead of lower. I verified this by reading the conditional logic in the code and by testing the live game after the refactor. After the change, guesses above the secret returned "Too High" with a lower hint, and guesses below the secret returned "Too Low" with a higher hint.
 One incorrect or misleading suggestion I received was assuming that logic_utils.py already contained the real game logic. At first, the file only had placeholder functions with NotImplementedError, so debugging there would not have fixed the actual bugs. I verified that this suggestion was misleading by opening both files and seeing that the working logic still lived in app.py. I then shifted the debugging focus back to app.py until the functions were properly refactored.
+
 ---
 
 ## 3. Debugging and testing your fixes
@@ -40,6 +48,7 @@ Second, I launched the game locally with Streamlit and tested the repaired behav
 
 Streamlit reruns the entire script every time the user interacts with the app, such as clicking a button or entering input. Instead of updating just one part of the app, it starts from the top again, which can reset variables if they are not stored properly.
 Session state acts like memory that persists across reruns. It allows the app to remember values like the secret number, attempts, and score so the game does not restart every time the user makes a guess. I would explain it as: Streamlit constantly refreshes, but session state is what keeps your data from disappearing.
+
 ---
 
 ## 5. Looking ahead: your developer habits
