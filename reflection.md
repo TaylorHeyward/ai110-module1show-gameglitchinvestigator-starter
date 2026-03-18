@@ -8,12 +8,6 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the hints were backwards").
 
-## 1. What was broken when you started?
-
-- What did the game look like the first time you ran it?
-- List at least two concrete bugs you noticed at the start  
-  (for example: "the hints were backwards").
-
 When I first ran the game, it technically worked, but the behavior was inconsistent and confusing. The feedback and game flow did not match what the player would expect from a guessing game.
 Some of the main bugs I noticed were:
 The hint logic was incorrect. For example, when I guessed 1 and the secret number was 55, the game told me to guess lower instead of higher.
