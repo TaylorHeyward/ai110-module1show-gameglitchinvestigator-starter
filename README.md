@@ -31,7 +31,17 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+
+### Fixed Game Demo
+
+![Winning Game Screenshot](./winning_game.png)
+![Go LOWER Screenshot](./go_lower.png)
+![Go HIGHER Screenshot](./go_higher.png)
+
+Screenshots show:
+- Winning the game with the correct guess
+- Feedback for a guess that is too high ("Go LOWER!")
+- Feedback for a guess that is too low ("Go HIGHER!")
 
 ## 🚀 Stretch Features
 
