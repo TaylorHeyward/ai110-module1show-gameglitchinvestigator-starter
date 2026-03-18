@@ -34,9 +34,9 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ### Fixed Game Demo
 
-![Winning Game Screenshot](./winning_game.png)
-![Go LOWER Screenshot](./go_lower.png)
-![Go HIGHER Screenshot](./go_higher.png)
+![Winning Game Screenshot](./Screenshot%202026-03-17%20at%203.17.44%E2%80%AFPM.png)
+![Go LOWER Screenshot](./Screenshot%202026-03-17%20at%203.17.56%E2%80%AFPM.png)
+![Go HIGHER Screenshot](./Screenshot%202026-03-17%20at%203.18.09%E2%80%AFPM.png)
 
 Screenshots show:
 - Winning the game with the correct guess
